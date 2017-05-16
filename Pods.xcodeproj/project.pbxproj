@@ -1,0 +1,1550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AA52D80D961849F46196265BB2BA32 /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFC989AFE345044080980EC0B4391E /* PopupDialogDefaultView.swift */; };
+		08D2557CF305FFB73CAD373034A4596F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		099814AC9719E43A1EFF046D1B473103 /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 30472D3F23DB4CB17B243548D6FFC2E1 /* XLPagerTabStrip.bundle */; };
+		0C7FBA691AA02D2FA13B3D8776989F0F /* NYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B3C401384BDC4CD6A63333E778BFD5 /* NYAlertView.m */; };
+		10634F1EA9662EC544E86912880528E5 /* PopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DBDD93AE33C34CD82978B49D21EAA6 /* PopupDialog-dummy.m */; };
+		15E0DFEFDE0A2ECB2B385FA6AC15182A /* NYAlertViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E0F1EAC2B03D2C81505F09A10B3162 /* NYAlertViewController-dummy.m */; };
+		1962AC3FA222EA6DC0CE8A48C1E6DCD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		1A023D14EA6E411A5F1871DB14D64E81 /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A897DDFA8450C445FE56AD305AAD2 /* TransitionAnimations.swift */; };
+		1A7176429F4CA181FF2BAEEAD9E0485F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		1B65828D155D9CD1BFFCB75A7CCA0862 /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B87757FAD0019D2868ED228CF0516 /* InteractiveTransition.swift */; };
+		21271E6D41C7EF160ACD41FAE42B3914 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5368691C5FA95BF301CA48644BDDF6A0 /* BarView.swift */; };
+		224A85932487353D4FEB41D97AAA1273 /* JVFloatLabeledTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE14021E6E48918F612221C618D56A0E /* JVFloatLabeledTextField-dummy.m */; };
+		22747222262E21D8104EB4E2669E20AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		22ABD3999C00A9866E63F4C52B94C617 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = E50A9380BC7D6E264AE12DFEAB5E452E /* FXBlurView.m */; };
+		267C62A1A0A66E924CC5A9FE6DB10B46 /* Pods-Bakso-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E247AB82C00450E1A23B2F78F372332B /* Pods-Bakso-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CF987D2DC59DA41EB62817A07B6712B /* JVFloatLabeledTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A8778E9B07D082C14490C3B57730B2 /* JVFloatLabeledTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31F2FF31B0ABC53796AC47564C488C49 /* NYAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = C512E68D3E06E3542E36C64E4A3AA62D /* NYAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		339207C32F2CE582CDA7BEA5055C4352 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		36A8635ACD8A411AA01830728549B534 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3666CE09B31F82CAEBD1DB6D816090 /* JVFloatLabeledTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		374B05D40613D0CD554DB2019101BE1C /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EBBC1A768D4F332F0A18DA4F901889 /* UIViewController+Visibility.swift */; };
+		48177EB610314B3A11E8C391B091C25B /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E573968A11ADF5CD109340927C0E16 /* PresentationManager.swift */; };
+		5000499A10724D60322B6C4293804C41 /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979161724C5CB80C8B835FB8DA1F762B /* PopupDialogDefaultButtons.swift */; };
+		53E4349E46DA74E54A1FB4881CC4F76F /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D17D7E0A6473E82878EC21398FEAF5 /* SlideMenuController.swift */; };
+		593012B13ACD1173BB5B9B95D09C0921 /* PopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0472A691C3EB5E88062B1377160299 /* PopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59B1CBF5BC5DA24A55BF0AE240D8B952 /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D3D1665AE565A5E51A6A9A0C8CC039 /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A00D8B9EBE843B1E9EEF82C1D9D4379 /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FE04C792BB6077BCBD477759356E52 /* BarPagerTabStripViewController.swift */; };
+		5BD292F61E1347E52961147CF356089A /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A4CFC0AF11EDE466CEC1EF7D7DCC2B /* PopupDialogDefaultViewController.swift */; };
+		5C18B5797EBBFC33667FFF3DC158DD77 /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868CDDF0AF8326DACB1F7F39513B3BC4 /* IndicatorInfo.swift */; };
+		5E3CCC14E908EFA09B38A1426E4C747E /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF3257A12C3EE26F57BA02DAB778670 /* PopupDialogContainerView.swift */; };
+		68B544E41A8477AA16E44E9C0D5F232C /* JVFloatLabeledTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = B50812D757A9E068389E9629255131F9 /* JVFloatLabeledTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D7B8C5BCEF514CCE43E44891B3126C3 /* NSString+TextDirectionality.h in Headers */ = {isa = PBXBuildFile; fileRef = 3246743F77EC8444A78FF81DE5B0D1F3 /* NSString+TextDirectionality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		704DDD0441A9EBD7139CE9D9019FFDB4 /* SlideMenuControllerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE003A6F06A3975A03197EA70C6F014 /* SlideMenuControllerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70FFCE020AD0C33439947824B8654F17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		77F8C44C830C05CFE91FD105730EC8BF /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3481D4280B5CCA78EC2DFF49B911DE9E /* PopupDialog+Keyboard.swift */; };
+		7C0671AF55BB45E306866809BE014ABA /* NYAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E82C69AFD3A0FDBC3D178372AD91B8B /* NYAlertViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C3A3317FC5A9769D097A82D911819DE /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C01FE68BC1799EC65979ADEF56D35E3 /* FXPageControl.m */; };
+		84E08DC88006D97D767CEA53B1ACBD49 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FA62F2FE8B51C80ED5A39349C73323 /* TransitionAnimator.swift */; };
+		865A86C894BF4B0BFA528BE46964155E /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1A2A48C33D1C792225329E4FB4573C /* BaseButtonBarPagerTabStripViewController.swift */; };
+		88751B0F770C1C1A5985599056BA1058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		8AF8BF26CCCA67194B977AA583A949E3 /* NYAlertViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 438B1F8778997DB1AA48E69A868B4C9A /* NYAlertViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E6220A90AA4CD47392C411F7AE9B380 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5163A5D9227128B140CD0C136A45903 /* SwipeDirection.swift */; };
+		91869E2A46C440C3187C6E09F0E76227 /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C469D28B5339E9A5DD9719F18C6BBB0 /* PagerTabStripError.swift */; };
+		94ABC4A6F3B1E87391FA18E85A0B9E63 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFB74A7911C3E53BE45ED77A0C8EEAF8 /* ButtonCell.xib */; };
+		96A7C0ACD08A39A8DD31ACEBF3FE5414 /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57272FCE301E2C0724F2D0B5BD26326D /* PopupDialogOverlayView.swift */; };
+		9A0FB2C71A306631C00AF04BE4DA3A76 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED97AC77C76463C6042DF6CC6411A97 /* NSString+TextDirectionality.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A30F09AD69AC7006A537B69EAB0906E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		A8AAD10CAFC527FFED409D925FEC2BB0 /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 179CB58D8639DB79E6EEEA9B4E433C06 /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABAB117B205F73DEA7BF4CB12BE1432C /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023A62370833FF13F7F2D58BF8A330F3 /* PagerTabStripViewController.swift */; };
+		ABB5BB2F6F8EC7ACA0F408387E194E36 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A934FBE9910F39E0FB0F9489566B50 /* PresentationController.swift */; };
+		B90AFA5F7BF2CC4AF9E554BD1D8F8C88 /* FXBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBF3AB36EB5536766BE53B83C6DBB73 /* FXBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB7EFDA5DCABE5B7985E1F04C5B9F017 /* Pods-Bakso-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5C30F9CD3D4ED8257DD30CC5291809 /* Pods-Bakso-dummy.m */; };
+		BE157B9B18ADA6BB59150ED4EE91CB30 /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225FCD7FF05D8A83A88BC9847DC1707 /* ButtonBarViewCell.swift */; };
+		C82B6C96ECB860A040B6088D60321579 /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F72614FC80B8EAED808F0B70F01E83 /* PopupDialogButton.swift */; };
+		C97BA71E2ED8C711BA3CC2E25E4B1AF7 /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 712E4B869687CDB0E4D8A62A06AE50E2 /* XLPagerTabStrip-dummy.m */; };
+		CA94579E9B32404E1773DFD85D56E0E3 /* ButtonCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = FFB74A7911C3E53BE45ED77A0C8EEAF8 /* ButtonCell.xib */; };
+		D5348910F3D979D8E9D9534DFB4B106D /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE67173B497C68E35C76BB74267E47 /* TwitterPagerTabStripViewController.swift */; };
+		D68303665D548EB8424C2FD37BF52086 /* NYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98069D1C79A0024659FC198911D4B4A3 /* NYAlertViewController.m */; };
+		D86CC63B194A1DB85F47B9FB002EC6CB /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB530D6E5C1F851D8107970D01A02CD3 /* SegmentedPagerTabStripViewController.swift */; };
+		D90D3F434A42E89FF21741BCFB1F3BA1 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BA49282BC9E311E53EAD32AB824F30 /* UIView+Animations.swift */; };
+		E5EB467975B04E7D2CB952DC04513A22 /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955E2DE46D55FB31EB740784B71A8A1F /* PagerTabStripBehaviour.swift */; };
+		E8F9D3D0BBD0BD3B9E9E3C1AD472645B /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A797E750F109C3F553004EC2E382C /* ButtonBarView.swift */; };
+		ED07198B0BD5543AE40570EA7914659C /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA330DA62A1E38581A1D97E533B8022 /* PopupDialog.swift */; };
+		F4EBD72886837777AA1E6DF34E9610C9 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81A3D71C1D3EF9231FCC860B239B09 /* JVFloatLabeledTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F9115057BD0EF647E0EAF0E014F84635 /* JVFloatLabeledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B96DB60B87907EE045F319952C0B97 /* JVFloatLabeledTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC8BDEF6A9C1BC184ACD172C9242BE2F /* SlideMenuControllerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B0D0262DE3F53FF625B296B2456D2A /* SlideMenuControllerSwift-dummy.m */; };
+		FE88A2DC811CBA1A7C0C8F8772897B0E /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64A8355B14C6E70D9D540510A28DC9 /* ButtonBarPagerTabStripViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07DB747486E91BCA73BF888AC4D5E4BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A72B2D244C629EAC320ECD494E899626;
+			remoteInfo = "XLPagerTabStrip-XLPagerTabStrip";
+		};
+		0A441FE35D58CB2A702C7DF38BF65095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF64AE46D5032A024E111A2A871B61A;
+			remoteInfo = NYAlertViewController;
+		};
+		6882CE4698BCDAACBD5C082BC6A3C9CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF9B13C3ED8EB62440C2399D2FEF88B;
+			remoteInfo = SlideMenuControllerSwift;
+		};
+		7985333B85BA17A7F42C15DEC0614758 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B00D94A861A87474228EF94655CF67B5;
+			remoteInfo = PopupDialog;
+		};
+		D2249AFAA39A34741CEE79D9034A1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1629B92AAC955906684BED322BCBBBF;
+			remoteInfo = XLPagerTabStrip;
+		};
+		D8C1258F2B199A1DF19F88A7324EB43F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A4448146C785C426971111F117D773C;
+			remoteInfo = JVFloatLabeledTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023A62370833FF13F7F2D58BF8A330F3 /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripViewController.swift; path = Sources/PagerTabStripViewController.swift; sourceTree = "<group>"; };
+		03817023A1108696735A9469DB878C4D /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		0861882BE4817E1BC5BFF240520C91AB /* SlideMenuControllerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-prefix.pch"; sourceTree = "<group>"; };
+		0E55495A6F3FA803C4046D9ABF6D512F /* JVFloatLabeledTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JVFloatLabeledTextField.modulemap; sourceTree = "<group>"; };
+		179CB58D8639DB79E6EEEA9B4E433C06 /* FXPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXPageControl.h; path = Sources/FXPageControl.h; sourceTree = "<group>"; };
+		188B87757FAD0019D2868ED228CF0516 /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = PopupDialog/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
+		1A5C30F9CD3D4ED8257DD30CC5291809 /* Pods-Bakso-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bakso-dummy.m"; sourceTree = "<group>"; };
+		1A69A97F04DDCA7D808790E53480AE9D /* JVFloatLabeledTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVFloatLabeledTextField.xcconfig; sourceTree = "<group>"; };
+		1F0561BC4C3AFAB9FA22E033113FCC8D /* Pods_Bakso.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bakso.framework; path = "Pods-Bakso.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2568A4AADBC5CED3AF7ED7EF35F6858A /* Pods-Bakso-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bakso-frameworks.sh"; sourceTree = "<group>"; };
+		26B5F8DA665FA924EA55DA816680C310 /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PopupDialog.modulemap; sourceTree = "<group>"; };
+		28B0D0262DE3F53FF625B296B2456D2A /* SlideMenuControllerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlideMenuControllerSwift-dummy.m"; sourceTree = "<group>"; };
+		2BEECED0DE598CE54232219059DDE00F /* Pods-Bakso.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bakso.release.xcconfig"; sourceTree = "<group>"; };
+		2E5A897DDFA8450C445FE56AD305AAD2 /* TransitionAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimations.swift; path = PopupDialog/Classes/TransitionAnimations.swift; sourceTree = "<group>"; };
+		30472D3F23DB4CB17B243548D6FFC2E1 /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XLPagerTabStrip.bundle; path = XLPagerTabStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3246743F77EC8444A78FF81DE5B0D1F3 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TextDirectionality.h"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		3481D4280B5CCA78EC2DFF49B911DE9E /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopupDialog+Keyboard.swift"; path = "PopupDialog/Classes/PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
+		37B87EB63D9C8877AC479E985CAFAC69 /* NYAlertViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NYAlertViewController.xcconfig; sourceTree = "<group>"; };
+		3AC2FFCAC260F7DAA0265A86C67F8D1A /* SlideMenuControllerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlideMenuControllerSwift.xcconfig; sourceTree = "<group>"; };
+		3D0E45360B976D2144D412688A208F7D /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		3D6EA0F15C89D915D696174BCD1614BF /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		3E82C69AFD3A0FDBC3D178372AD91B8B /* NYAlertViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYAlertViewController.h; path = NYAlertViewController/NYAlertViewController.h; sourceTree = "<group>"; };
+		438B1F8778997DB1AA48E69A868B4C9A /* NYAlertViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYAlertViewController-umbrella.h"; sourceTree = "<group>"; };
+		4788D3E229991461E3FC2A6A65CD08ED /* Pods-Bakso-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bakso-acknowledgements.plist"; sourceTree = "<group>"; };
+		47B96DB60B87907EE045F319952C0B97 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextField.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		48A8778E9B07D082C14490C3B57730B2 /* JVFloatLabeledTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextField-umbrella.h"; sourceTree = "<group>"; };
+		497E3C8887C7E30A947C687179C7987E /* Pods-Bakso.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bakso.debug.xcconfig"; sourceTree = "<group>"; };
+		4C469D28B5339E9A5DD9719F18C6BBB0 /* PagerTabStripError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripError.swift; path = Sources/PagerTabStripError.swift; sourceTree = "<group>"; };
+		4F3666CE09B31F82CAEBD1DB6D816090 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextView.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		5368691C5FA95BF301CA48644BDDF6A0 /* BarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarView.swift; path = Sources/BarView.swift; sourceTree = "<group>"; };
+		57272FCE301E2C0724F2D0B5BD26326D /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogOverlayView.swift; path = PopupDialog/Classes/PopupDialogOverlayView.swift; sourceTree = "<group>"; };
+		5C6944A19AF810DAC28DDCBDA77BBA83 /* NYAlertViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NYAlertViewController.framework; path = NYAlertViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBF3AB36EB5536766BE53B83C6DBB73 /* FXBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXBlurView.h; path = PopupDialog/Classes/FXBlurView.h; sourceTree = "<group>"; };
+		60BA49282BC9E311E53EAD32AB824F30 /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "PopupDialog/Classes/UIView+Animations.swift"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		61EBBC1A768D4F332F0A18DA4F901889 /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Visibility.swift"; path = "PopupDialog/Classes/UIViewController+Visibility.swift"; sourceTree = "<group>"; };
+		61F687FFF6BCB33DB931FA6C9B11C857 /* PopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.xcconfig; sourceTree = "<group>"; };
+		634B8D955C902A3CCCA949894D20EDDE /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
+		64A4CFC0AF11EDE466CEC1EF7D7DCC2B /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultViewController.swift; path = PopupDialog/Classes/PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
+		653CE17808571F45E235B75C6F63AA62 /* ResourceBundle-XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
+		65A934FBE9910F39E0FB0F9489566B50 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = PopupDialog/Classes/PresentationController.swift; sourceTree = "<group>"; };
+		67066D16186B32C65E405BD2D8E60564 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6771E33D5CD2DFC0112992C33B9CDF67 /* SlideMenuControllerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SlideMenuControllerSwift.framework; path = SlideMenuControllerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F72614FC80B8EAED808F0B70F01E83 /* PopupDialogButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogButton.swift; path = PopupDialog/Classes/PopupDialogButton.swift; sourceTree = "<group>"; };
+		6B2C8E24C01F0862A8DF830C206BF543 /* Pods-Bakso-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bakso-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E59B8EA1FE0A10C08228AC7AD92D21B /* Pods-Bakso-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bakso-resources.sh"; sourceTree = "<group>"; };
+		6ED97AC77C76463C6042DF6CC6411A97 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TextDirectionality.m"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		712E4B869687CDB0E4D8A62A06AE50E2 /* XLPagerTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLPagerTabStrip-dummy.m"; sourceTree = "<group>"; };
+		75D3D1665AE565A5E51A6A9A0C8CC039 /* XLPagerTabStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-umbrella.h"; sourceTree = "<group>"; };
+		7ABFC989AFE345044080980EC0B4391E /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultView.swift; path = PopupDialog/Classes/PopupDialogDefaultView.swift; sourceTree = "<group>"; };
+		7CBE67173B497C68E35C76BB74267E47 /* TwitterPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterPagerTabStripViewController.swift; path = Sources/TwitterPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F1A2A48C33D1C792225329E4FB4573C /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		868CDDF0AF8326DACB1F7F39513B3BC4 /* IndicatorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorInfo.swift; path = Sources/IndicatorInfo.swift; sourceTree = "<group>"; };
+		86C8089D2CFF03908E5768C4FBBA3A18 /* PopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-prefix.pch"; sourceTree = "<group>"; };
+		87D17D7E0A6473E82878EC21398FEAF5 /* SlideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideMenuController.swift; path = Source/SlideMenuController.swift; sourceTree = "<group>"; };
+		89A221EB2E1DB6CB1A4A6C1DBA8E3107 /* Pods-Bakso.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Bakso.modulemap"; sourceTree = "<group>"; };
+		8B0472A691C3EB5E88062B1377160299 /* PopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-umbrella.h"; sourceTree = "<group>"; };
+		8C01FE68BC1799EC65979ADEF56D35E3 /* FXPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = Sources/FXPageControl.m; sourceTree = "<group>"; };
+		8EA330DA62A1E38581A1D97E533B8022 /* PopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialog.swift; path = PopupDialog/Classes/PopupDialog.swift; sourceTree = "<group>"; };
+		9193A398F404AA3FDA2A5F8A24B8BDFD /* NYAlertViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYAlertViewController-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E573968A11ADF5CD109340927C0E16 /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = PopupDialog/Classes/PresentationManager.swift; sourceTree = "<group>"; };
+		955E2DE46D55FB31EB740784B71A8A1F /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripBehaviour.swift; path = Sources/PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
+		95FE04C792BB6077BCBD477759356E52 /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPagerTabStripViewController.swift; path = Sources/BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		979161724C5CB80C8B835FB8DA1F762B /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultButtons.swift; path = PopupDialog/Classes/PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
+		98069D1C79A0024659FC198911D4B4A3 /* NYAlertViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYAlertViewController.m; path = NYAlertViewController/NYAlertViewController.m; sourceTree = "<group>"; };
+		9810ADC3C817C3138FB810D6D0A07E49 /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopupDialog.framework; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B3C401384BDC4CD6A63333E778BFD5 /* NYAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYAlertView.m; path = NYAlertViewController/NYAlertView.m; sourceTree = "<group>"; };
+		A2DBDD93AE33C34CD82978B49D21EAA6 /* PopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupDialog-dummy.m"; sourceTree = "<group>"; };
+		A628BE03CAD291EA3115648FAAE44F3D /* JVFloatLabeledTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextField-prefix.pch"; sourceTree = "<group>"; };
+		AE64A8355B14C6E70D9D540510A28DC9 /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarPagerTabStripViewController.swift; path = Sources/ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		B1F9CE6568742E65885B35067B026548 /* SlideMenuControllerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SlideMenuControllerSwift.modulemap; sourceTree = "<group>"; };
+		B47A797E750F109C3F553004EC2E382C /* ButtonBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarView.swift; path = Sources/ButtonBarView.swift; sourceTree = "<group>"; };
+		B50812D757A9E068389E9629255131F9 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextView.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		B5163A5D9227128B140CD0C136A45903 /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
+		B9BAB9C35EAA8697B971BBCFE59D29BB /* XLPagerTabStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XLPagerTabStrip.modulemap; sourceTree = "<group>"; };
+		B9FA62F2FE8B51C80ED5A39349C73323 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = PopupDialog/Classes/TransitionAnimator.swift; sourceTree = "<group>"; };
+		C1CF373976443F9227B3F5115CC68C84 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C225FCD7FF05D8A83A88BC9847DC1707 /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarViewCell.swift; path = Sources/ButtonBarViewCell.swift; sourceTree = "<group>"; };
+		C512E68D3E06E3542E36C64E4A3AA62D /* NYAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYAlertView.h; path = NYAlertViewController/NYAlertView.h; sourceTree = "<group>"; };
+		C8E0F1EAC2B03D2C81505F09A10B3162 /* NYAlertViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NYAlertViewController-dummy.m"; sourceTree = "<group>"; };
+		CA3F6A9002F70CBE3F73F3409E913F7E /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		CB530D6E5C1F851D8107970D01A02CD3 /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedPagerTabStripViewController.swift; path = Sources/SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		CE14021E6E48918F612221C618D56A0E /* JVFloatLabeledTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVFloatLabeledTextField-dummy.m"; sourceTree = "<group>"; };
+		CFF3257A12C3EE26F57BA02DAB778670 /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogContainerView.swift; path = PopupDialog/Classes/PopupDialogContainerView.swift; sourceTree = "<group>"; };
+		D4A66610ACECAABD35AB4BFA3677F761 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90F637DB5BF34D3B093152E53E6FEB0 /* XLPagerTabStrip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.xcconfig; sourceTree = "<group>"; };
+		D97BD4ED06C61945829547407EA20933 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE81A3D71C1D3EF9231FCC860B239B09 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextField.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		DFE003A6F06A3975A03197EA70C6F014 /* SlideMenuControllerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-umbrella.h"; sourceTree = "<group>"; };
+		E247AB82C00450E1A23B2F78F372332B /* Pods-Bakso-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bakso-umbrella.h"; sourceTree = "<group>"; };
+		E50A9380BC7D6E264AE12DFEAB5E452E /* FXBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXBlurView.m; path = PopupDialog/Classes/FXBlurView.m; sourceTree = "<group>"; };
+		E93B085B2A89C7117D324466923E2CE7 /* NYAlertViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NYAlertViewController.modulemap; sourceTree = "<group>"; };
+		EA1B0557CB80F2E48BB8663E526BEF8B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05A736EB57D02B2EFAE55EDDEE87906 /* JVFloatLabeledTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVFloatLabeledTextField.framework; path = JVFloatLabeledTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3067119445C7ED95089E2C63114A0D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F762F3C002AEF9A5532CE0034F7C40D9 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XLPagerTabStrip.framework; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB74A7911C3E53BE45ED77A0C8EEAF8 /* ButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ButtonCell.xib; path = Sources/ButtonCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44C8C3A588D255B038246C323B5EE7A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1962AC3FA222EA6DC0CE8A48C1E6DCD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC880E7C27626C0C8D84BDD36DC9C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E402049C863BF5EA9D62EBFF1A1ACEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D2557CF305FFB73CAD373034A4596F /* Foundation.framework in Frameworks */,
+				A30F09AD69AC7006A537B69EAB0906E0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAA0415231AD0D84D432FF0E753A75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7176429F4CA181FF2BAEEAD9E0485F /* Foundation.framework in Frameworks */,
+				339207C32F2CE582CDA7BEA5055C4352 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A5C7391B3401939E52284582CA9438C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22747222262E21D8104EB4E2669E20AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6EC27768CDE2D4A0AB0E8CDDD8CF90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70FFCE020AD0C33439947824B8654F17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4E12248077824BC31F6FD20911FA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88751B0F770C1C1A5985599056BA1058 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12776C70C06F9DB637003AE21CB7C5EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E45360B976D2144D412688A208F7D /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13CD7A1B0C89D32A6D0DF1DA74C10EC5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EAF648BF95D295D6D133F454E893722 /* Pods-Bakso */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		18ECF0CDA7DE9F0C48AB506754694224 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E957522E98C102A3A03E45129CDBD7B8 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		1B740F358823406163B57E282594DBF3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA1B0557CB80F2E48BB8663E526BEF8B /* Info.plist */,
+				26B5F8DA665FA924EA55DA816680C310 /* PopupDialog.modulemap */,
+				61F687FFF6BCB33DB931FA6C9B11C857 /* PopupDialog.xcconfig */,
+				A2DBDD93AE33C34CD82978B49D21EAA6 /* PopupDialog-dummy.m */,
+				86C8089D2CFF03908E5768C4FBBA3A18 /* PopupDialog-prefix.pch */,
+				8B0472A691C3EB5E88062B1377160299 /* PopupDialog-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PopupDialog";
+			sourceTree = "<group>";
+		};
+		1E13B59124905E510E6313330BA389E5 /* NYAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C512E68D3E06E3542E36C64E4A3AA62D /* NYAlertView.h */,
+				98B3C401384BDC4CD6A63333E778BFD5 /* NYAlertView.m */,
+				3E82C69AFD3A0FDBC3D178372AD91B8B /* NYAlertViewController.h */,
+				98069D1C79A0024659FC198911D4B4A3 /* NYAlertViewController.m */,
+				7278675587A29989DAE5291EE499DD33 /* Support Files */,
+			);
+			name = NYAlertViewController;
+			path = NYAlertViewController;
+			sourceTree = "<group>";
+		};
+		2D821C95A8DCF1C3814FF0D767DAD258 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D6EA0F15C89D915D696174BCD1614BF /* GoogleMaps.framework */,
+				03817023A1108696735A9469DB878C4D /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FEA48AD98F91F990F27F43B701D335B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F05A736EB57D02B2EFAE55EDDEE87906 /* JVFloatLabeledTextField.framework */,
+				5C6944A19AF810DAC28DDCBDA77BBA83 /* NYAlertViewController.framework */,
+				1F0561BC4C3AFAB9FA22E033113FCC8D /* Pods_Bakso.framework */,
+				9810ADC3C817C3138FB810D6D0A07E49 /* PopupDialog.framework */,
+				6771E33D5CD2DFC0112992C33B9CDF67 /* SlideMenuControllerSwift.framework */,
+				30472D3F23DB4CB17B243548D6FFC2E1 /* XLPagerTabStrip.bundle */,
+				F762F3C002AEF9A5532CE0034F7C40D9 /* XLPagerTabStrip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		373AD32769DD142F30DC428BC54BAD0A /* PopupDialog */ = {
+			isa = PBXGroup;
+			children = (
+				5FBF3AB36EB5536766BE53B83C6DBB73 /* FXBlurView.h */,
+				E50A9380BC7D6E264AE12DFEAB5E452E /* FXBlurView.m */,
+				188B87757FAD0019D2868ED228CF0516 /* InteractiveTransition.swift */,
+				8EA330DA62A1E38581A1D97E533B8022 /* PopupDialog.swift */,
+				3481D4280B5CCA78EC2DFF49B911DE9E /* PopupDialog+Keyboard.swift */,
+				67F72614FC80B8EAED808F0B70F01E83 /* PopupDialogButton.swift */,
+				CFF3257A12C3EE26F57BA02DAB778670 /* PopupDialogContainerView.swift */,
+				979161724C5CB80C8B835FB8DA1F762B /* PopupDialogDefaultButtons.swift */,
+				7ABFC989AFE345044080980EC0B4391E /* PopupDialogDefaultView.swift */,
+				64A4CFC0AF11EDE466CEC1EF7D7DCC2B /* PopupDialogDefaultViewController.swift */,
+				57272FCE301E2C0724F2D0B5BD26326D /* PopupDialogOverlayView.swift */,
+				65A934FBE9910F39E0FB0F9489566B50 /* PresentationController.swift */,
+				93E573968A11ADF5CD109340927C0E16 /* PresentationManager.swift */,
+				2E5A897DDFA8450C445FE56AD305AAD2 /* TransitionAnimations.swift */,
+				B9FA62F2FE8B51C80ED5A39349C73323 /* TransitionAnimator.swift */,
+				60BA49282BC9E311E53EAD32AB824F30 /* UIView+Animations.swift */,
+				61EBBC1A768D4F332F0A18DA4F901889 /* UIViewController+Visibility.swift */,
+				1B740F358823406163B57E282594DBF3 /* Support Files */,
+			);
+			name = PopupDialog;
+			path = PopupDialog;
+			sourceTree = "<group>";
+		};
+		3C81A51E9DD8C170FAB5681E8662C9A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45DA6F437C354BD24F27E3C466A1A192 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				2D821C95A8DCF1C3814FF0D767DAD258 /* Frameworks */,
+				12776C70C06F9DB637003AE21CB7C5EA /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		4962D515AD16A8D4E1D89E069A3673EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D97BD4ED06C61945829547407EA20933 /* Info.plist */,
+				0E55495A6F3FA803C4046D9ABF6D512F /* JVFloatLabeledTextField.modulemap */,
+				1A69A97F04DDCA7D808790E53480AE9D /* JVFloatLabeledTextField.xcconfig */,
+				CE14021E6E48918F612221C618D56A0E /* JVFloatLabeledTextField-dummy.m */,
+				A628BE03CAD291EA3115648FAAE44F3D /* JVFloatLabeledTextField-prefix.pch */,
+				48A8778E9B07D082C14490C3B57730B2 /* JVFloatLabeledTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JVFloatLabeledTextField";
+			sourceTree = "<group>";
+		};
+		51A28E9112CAE34247332A3785E31B50 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				18ECF0CDA7DE9F0C48AB506754694224 /* Base */,
+				45DA6F437C354BD24F27E3C466A1A192 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		7278675587A29989DAE5291EE499DD33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67066D16186B32C65E405BD2D8E60564 /* Info.plist */,
+				E93B085B2A89C7117D324466923E2CE7 /* NYAlertViewController.modulemap */,
+				37B87EB63D9C8877AC479E985CAFAC69 /* NYAlertViewController.xcconfig */,
+				C8E0F1EAC2B03D2C81505F09A10B3162 /* NYAlertViewController-dummy.m */,
+				9193A398F404AA3FDA2A5F8A24B8BDFD /* NYAlertViewController-prefix.pch */,
+				438B1F8778997DB1AA48E69A868B4C9A /* NYAlertViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NYAlertViewController";
+			sourceTree = "<group>";
+		};
+		77FF4D7F070ABCFD875842AB56427B51 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4A66610ACECAABD35AB4BFA3677F761 /* Info.plist */,
+				653CE17808571F45E235B75C6F63AA62 /* ResourceBundle-XLPagerTabStrip-Info.plist */,
+				B9BAB9C35EAA8697B971BBCFE59D29BB /* XLPagerTabStrip.modulemap */,
+				D90F637DB5BF34D3B093152E53E6FEB0 /* XLPagerTabStrip.xcconfig */,
+				712E4B869687CDB0E4D8A62A06AE50E2 /* XLPagerTabStrip-dummy.m */,
+				634B8D955C902A3CCCA949894D20EDDE /* XLPagerTabStrip-prefix.pch */,
+				75D3D1665AE565A5E51A6A9A0C8CC039 /* XLPagerTabStrip-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XLPagerTabStrip";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				A8928588A0AF8B75BBC4D3CA3257E6E3 /* Pods */,
+				2FEA48AD98F91F990F27F43B701D335B /* Products */,
+				13CD7A1B0C89D32A6D0DF1DA74C10EC5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E95999B4DD74E48167B3EBD284CD9C3 /* SlideMenuControllerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				87D17D7E0A6473E82878EC21398FEAF5 /* SlideMenuController.swift */,
+				B863E7689E5D1B4009DB53F398006916 /* Support Files */,
+			);
+			name = SlideMenuControllerSwift;
+			path = SlideMenuControllerSwift;
+			sourceTree = "<group>";
+		};
+		9EAF648BF95D295D6D133F454E893722 /* Pods-Bakso */ = {
+			isa = PBXGroup;
+			children = (
+				F3067119445C7ED95089E2C63114A0D2 /* Info.plist */,
+				89A221EB2E1DB6CB1A4A6C1DBA8E3107 /* Pods-Bakso.modulemap */,
+				6B2C8E24C01F0862A8DF830C206BF543 /* Pods-Bakso-acknowledgements.markdown */,
+				4788D3E229991461E3FC2A6A65CD08ED /* Pods-Bakso-acknowledgements.plist */,
+				1A5C30F9CD3D4ED8257DD30CC5291809 /* Pods-Bakso-dummy.m */,
+				2568A4AADBC5CED3AF7ED7EF35F6858A /* Pods-Bakso-frameworks.sh */,
+				6E59B8EA1FE0A10C08228AC7AD92D21B /* Pods-Bakso-resources.sh */,
+				E247AB82C00450E1A23B2F78F372332B /* Pods-Bakso-umbrella.h */,
+				497E3C8887C7E30A947C687179C7987E /* Pods-Bakso.debug.xcconfig */,
+				2BEECED0DE598CE54232219059DDE00F /* Pods-Bakso.release.xcconfig */,
+			);
+			name = "Pods-Bakso";
+			path = "Target Support Files/Pods-Bakso";
+			sourceTree = "<group>";
+		};
+		A8928588A0AF8B75BBC4D3CA3257E6E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51A28E9112CAE34247332A3785E31B50 /* GoogleMaps */,
+				B5936DE4B0195BD481EEA013645A53BF /* JVFloatLabeledTextField */,
+				1E13B59124905E510E6313330BA389E5 /* NYAlertViewController */,
+				373AD32769DD142F30DC428BC54BAD0A /* PopupDialog */,
+				8E95999B4DD74E48167B3EBD284CD9C3 /* SlideMenuControllerSwift */,
+				F3E5D338BB28D1387766AE071E758275 /* XLPagerTabStrip */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5936DE4B0195BD481EEA013645A53BF /* JVFloatLabeledTextField */ = {
+			isa = PBXGroup;
+			children = (
+				47B96DB60B87907EE045F319952C0B97 /* JVFloatLabeledTextField.h */,
+				DE81A3D71C1D3EF9231FCC860B239B09 /* JVFloatLabeledTextField.m */,
+				B50812D757A9E068389E9629255131F9 /* JVFloatLabeledTextView.h */,
+				4F3666CE09B31F82CAEBD1DB6D816090 /* JVFloatLabeledTextView.m */,
+				3246743F77EC8444A78FF81DE5B0D1F3 /* NSString+TextDirectionality.h */,
+				6ED97AC77C76463C6042DF6CC6411A97 /* NSString+TextDirectionality.m */,
+				4962D515AD16A8D4E1D89E069A3673EF /* Support Files */,
+			);
+			name = JVFloatLabeledTextField;
+			path = JVFloatLabeledTextField;
+			sourceTree = "<group>";
+		};
+		B863E7689E5D1B4009DB53F398006916 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1CF373976443F9227B3F5115CC68C84 /* Info.plist */,
+				B1F9CE6568742E65885B35067B026548 /* SlideMenuControllerSwift.modulemap */,
+				3AC2FFCAC260F7DAA0265A86C67F8D1A /* SlideMenuControllerSwift.xcconfig */,
+				28B0D0262DE3F53FF625B296B2456D2A /* SlideMenuControllerSwift-dummy.m */,
+				0861882BE4817E1BC5BFF240520C91AB /* SlideMenuControllerSwift-prefix.pch */,
+				DFE003A6F06A3975A03197EA70C6F014 /* SlideMenuControllerSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SlideMenuControllerSwift";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E957522E98C102A3A03E45129CDBD7B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA3F6A9002F70CBE3F73F3409E913F7E /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3E5D338BB28D1387766AE071E758275 /* XLPagerTabStrip */ = {
+			isa = PBXGroup;
+			children = (
+				95FE04C792BB6077BCBD477759356E52 /* BarPagerTabStripViewController.swift */,
+				5368691C5FA95BF301CA48644BDDF6A0 /* BarView.swift */,
+				7F1A2A48C33D1C792225329E4FB4573C /* BaseButtonBarPagerTabStripViewController.swift */,
+				AE64A8355B14C6E70D9D540510A28DC9 /* ButtonBarPagerTabStripViewController.swift */,
+				B47A797E750F109C3F553004EC2E382C /* ButtonBarView.swift */,
+				C225FCD7FF05D8A83A88BC9847DC1707 /* ButtonBarViewCell.swift */,
+				FFB74A7911C3E53BE45ED77A0C8EEAF8 /* ButtonCell.xib */,
+				179CB58D8639DB79E6EEEA9B4E433C06 /* FXPageControl.h */,
+				8C01FE68BC1799EC65979ADEF56D35E3 /* FXPageControl.m */,
+				868CDDF0AF8326DACB1F7F39513B3BC4 /* IndicatorInfo.swift */,
+				955E2DE46D55FB31EB740784B71A8A1F /* PagerTabStripBehaviour.swift */,
+				4C469D28B5339E9A5DD9719F18C6BBB0 /* PagerTabStripError.swift */,
+				023A62370833FF13F7F2D58BF8A330F3 /* PagerTabStripViewController.swift */,
+				CB530D6E5C1F851D8107970D01A02CD3 /* SegmentedPagerTabStripViewController.swift */,
+				B5163A5D9227128B140CD0C136A45903 /* SwipeDirection.swift */,
+				7CBE67173B497C68E35C76BB74267E47 /* TwitterPagerTabStripViewController.swift */,
+				3C81A51E9DD8C170FAB5681E8662C9A3 /* Resources */,
+				77FF4D7F070ABCFD875842AB56427B51 /* Support Files */,
+			);
+			name = XLPagerTabStrip;
+			path = XLPagerTabStrip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B1B2CACAF346678B44E974E17D9EF04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F2FF31B0ABC53796AC47564C488C49 /* NYAlertView.h in Headers */,
+				8AF8BF26CCCA67194B977AA583A949E3 /* NYAlertViewController-umbrella.h in Headers */,
+				7C0671AF55BB45E306866809BE014ABA /* NYAlertViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52851906535BE8E2FEE5B0D8010E19DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				704DDD0441A9EBD7139CE9D9019FFDB4 /* SlideMenuControllerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C6FD09B881235ED5FB79D9E279B24C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AAD10CAFC527FFED409D925FEC2BB0 /* FXPageControl.h in Headers */,
+				59B1CBF5BC5DA24A55BF0AE240D8B952 /* XLPagerTabStrip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1693C9073C80C3C23D870E146BB68E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF987D2DC59DA41EB62817A07B6712B /* JVFloatLabeledTextField-umbrella.h in Headers */,
+				F9115057BD0EF647E0EAF0E014F84635 /* JVFloatLabeledTextField.h in Headers */,
+				68B544E41A8477AA16E44E9C0D5F232C /* JVFloatLabeledTextView.h in Headers */,
+				6D7B8C5BCEF514CCE43E44891B3126C3 /* NSString+TextDirectionality.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22863F977C81EA182D7693A032421C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267C62A1A0A66E924CC5A9FE6DB10B46 /* Pods-Bakso-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90A2D661C49686B763E6F5B7700CF71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90AFA5F7BF2CC4AF9E554BD1D8F8C88 /* FXBlurView.h in Headers */,
+				593012B13ACD1173BB5B9B95D09C0921 /* PopupDialog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A4448146C785C426971111F117D773C /* JVFloatLabeledTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C414E0068C63C34D8BEC8252D016A1D /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField" */;
+			buildPhases = (
+				331CAB23E830D1AA0768D9AC301E22B6 /* Sources */,
+				5E402049C863BF5EA9D62EBFF1A1ACEC /* Frameworks */,
+				B1693C9073C80C3C23D870E146BB68E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVFloatLabeledTextField;
+			productName = JVFloatLabeledTextField;
+			productReference = F05A736EB57D02B2EFAE55EDDEE87906 /* JVFloatLabeledTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8EDDAA5D53CB0717AD3C626A85077CD7 /* Pods-Bakso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D515B6D2A9DEFDA25A9DBBA7BC653A9F /* Build configuration list for PBXNativeTarget "Pods-Bakso" */;
+			buildPhases = (
+				749208B06DDD34E1E8575CBF97061F02 /* Sources */,
+				6A5C7391B3401939E52284582CA9438C /* Frameworks */,
+				D22863F977C81EA182D7693A032421C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D9F49B083E9F856D2054D01210FE284 /* PBXTargetDependency */,
+				DE7C5D105DC7BBDBA2D1C18125B496DF /* PBXTargetDependency */,
+				8BA506631FD842ADC175C688A075B1FC /* PBXTargetDependency */,
+				060DEE44880A9D8DA78B3FD29AA76B00 /* PBXTargetDependency */,
+				EF905F772D8C5DD1FEEBFCC00F2F1D7E /* PBXTargetDependency */,
+			);
+			name = "Pods-Bakso";
+			productName = "Pods-Bakso";
+			productReference = 1F0561BC4C3AFAB9FA22E033113FCC8D /* Pods_Bakso.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A72B2D244C629EAC320ECD494E899626 /* XLPagerTabStrip-XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FADC257B357BB19DD9528D38787518A /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
+			buildPhases = (
+				9FE464EB712D6E87C868D362D0B59724 /* Sources */,
+				4EC880E7C27626C0C8D84BDD36DC9C4E /* Frameworks */,
+				44220BA7BF3D2C79B37E40DF00E342DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			productName = "XLPagerTabStrip-XLPagerTabStrip";
+			productReference = 30472D3F23DB4CB17B243548D6FFC2E1 /* XLPagerTabStrip.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B00D94A861A87474228EF94655CF67B5 /* PopupDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B947826296F572A43BCEDE7D412B9B /* Build configuration list for PBXNativeTarget "PopupDialog" */;
+			buildPhases = (
+				E956229AE1DE14AAC71AD795AE5552D4 /* Sources */,
+				44C8C3A588D255B038246C323B5EE7A3 /* Frameworks */,
+				F90A2D661C49686B763E6F5B7700CF71 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopupDialog;
+			productName = PopupDialog;
+			productReference = 9810ADC3C817C3138FB810D6D0A07E49 /* PopupDialog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1629B92AAC955906684BED322BCBBBF /* XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162F5F547E7472A9D80AF67B19A8C5D9 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
+			buildPhases = (
+				4FFC3485025D56B4772A08448EBF5FEB /* Sources */,
+				5EAA0415231AD0D84D432FF0E753A75C /* Frameworks */,
+				FCC189A15CC89D73952FC0F39306B4DB /* Resources */,
+				73C6FD09B881235ED5FB79D9E279B24C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD14422D7628C60AD34049951EDAFC8 /* PBXTargetDependency */,
+			);
+			name = XLPagerTabStrip;
+			productName = XLPagerTabStrip;
+			productReference = F762F3C002AEF9A5532CE0034F7C40D9 /* XLPagerTabStrip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFF9B13C3ED8EB62440C2399D2FEF88B /* SlideMenuControllerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA59E62B8DA0FC98A16479F02909025 /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */;
+			buildPhases = (
+				F669D353C0DB09761FAB47C4906B32D8 /* Sources */,
+				9A6EC27768CDE2D4A0AB0E8CDDD8CF90 /* Frameworks */,
+				52851906535BE8E2FEE5B0D8010E19DC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideMenuControllerSwift;
+			productName = SlideMenuControllerSwift;
+			productReference = 6771E33D5CD2DFC0112992C33B9CDF67 /* SlideMenuControllerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DAF64AE46D5032A024E111A2A871B61A /* NYAlertViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F95740B48EA789B254DD1628DE3CFC3 /* Build configuration list for PBXNativeTarget "NYAlertViewController" */;
+			buildPhases = (
+				B4C76BC7A449C59863E9237892558F8B /* Sources */,
+				EA4E12248077824BC31F6FD20911FA9F /* Frameworks */,
+				1B1B2CACAF346678B44E974E17D9EF04 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYAlertViewController;
+			productName = NYAlertViewController;
+			productReference = 5C6944A19AF810DAC28DDCBDA77BBA83 /* NYAlertViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2FEA48AD98F91F990F27F43B701D335B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A4448146C785C426971111F117D773C /* JVFloatLabeledTextField */,
+				DAF64AE46D5032A024E111A2A871B61A /* NYAlertViewController */,
+				8EDDAA5D53CB0717AD3C626A85077CD7 /* Pods-Bakso */,
+				B00D94A861A87474228EF94655CF67B5 /* PopupDialog */,
+				BFF9B13C3ED8EB62440C2399D2FEF88B /* SlideMenuControllerSwift */,
+				B1629B92AAC955906684BED322BCBBBF /* XLPagerTabStrip */,
+				A72B2D244C629EAC320ECD494E899626 /* XLPagerTabStrip-XLPagerTabStrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44220BA7BF3D2C79B37E40DF00E342DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94ABC4A6F3B1E87391FA18E85A0B9E63 /* ButtonCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC189A15CC89D73952FC0F39306B4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099814AC9719E43A1EFF046D1B473103 /* XLPagerTabStrip.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		331CAB23E830D1AA0768D9AC301E22B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224A85932487353D4FEB41D97AAA1273 /* JVFloatLabeledTextField-dummy.m in Sources */,
+				F4EBD72886837777AA1E6DF34E9610C9 /* JVFloatLabeledTextField.m in Sources */,
+				36A8635ACD8A411AA01830728549B534 /* JVFloatLabeledTextView.m in Sources */,
+				9A0FB2C71A306631C00AF04BE4DA3A76 /* NSString+TextDirectionality.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFC3485025D56B4772A08448EBF5FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A00D8B9EBE843B1E9EEF82C1D9D4379 /* BarPagerTabStripViewController.swift in Sources */,
+				21271E6D41C7EF160ACD41FAE42B3914 /* BarView.swift in Sources */,
+				865A86C894BF4B0BFA528BE46964155E /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
+				FE88A2DC811CBA1A7C0C8F8772897B0E /* ButtonBarPagerTabStripViewController.swift in Sources */,
+				E8F9D3D0BBD0BD3B9E9E3C1AD472645B /* ButtonBarView.swift in Sources */,
+				BE157B9B18ADA6BB59150ED4EE91CB30 /* ButtonBarViewCell.swift in Sources */,
+				CA94579E9B32404E1773DFD85D56E0E3 /* ButtonCell.xib in Sources */,
+				7C3A3317FC5A9769D097A82D911819DE /* FXPageControl.m in Sources */,
+				5C18B5797EBBFC33667FFF3DC158DD77 /* IndicatorInfo.swift in Sources */,
+				E5EB467975B04E7D2CB952DC04513A22 /* PagerTabStripBehaviour.swift in Sources */,
+				91869E2A46C440C3187C6E09F0E76227 /* PagerTabStripError.swift in Sources */,
+				ABAB117B205F73DEA7BF4CB12BE1432C /* PagerTabStripViewController.swift in Sources */,
+				D86CC63B194A1DB85F47B9FB002EC6CB /* SegmentedPagerTabStripViewController.swift in Sources */,
+				8E6220A90AA4CD47392C411F7AE9B380 /* SwipeDirection.swift in Sources */,
+				D5348910F3D979D8E9D9534DFB4B106D /* TwitterPagerTabStripViewController.swift in Sources */,
+				C97BA71E2ED8C711BA3CC2E25E4B1AF7 /* XLPagerTabStrip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749208B06DDD34E1E8575CBF97061F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7EFDA5DCABE5B7985E1F04C5B9F017 /* Pods-Bakso-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE464EB712D6E87C868D362D0B59724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C76BC7A449C59863E9237892558F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7FBA691AA02D2FA13B3D8776989F0F /* NYAlertView.m in Sources */,
+				15E0DFEFDE0A2ECB2B385FA6AC15182A /* NYAlertViewController-dummy.m in Sources */,
+				D68303665D548EB8424C2FD37BF52086 /* NYAlertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E956229AE1DE14AAC71AD795AE5552D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ABD3999C00A9866E63F4C52B94C617 /* FXBlurView.m in Sources */,
+				1B65828D155D9CD1BFFCB75A7CCA0862 /* InteractiveTransition.swift in Sources */,
+				77F8C44C830C05CFE91FD105730EC8BF /* PopupDialog+Keyboard.swift in Sources */,
+				10634F1EA9662EC544E86912880528E5 /* PopupDialog-dummy.m in Sources */,
+				ED07198B0BD5543AE40570EA7914659C /* PopupDialog.swift in Sources */,
+				C82B6C96ECB860A040B6088D60321579 /* PopupDialogButton.swift in Sources */,
+				5E3CCC14E908EFA09B38A1426E4C747E /* PopupDialogContainerView.swift in Sources */,
+				5000499A10724D60322B6C4293804C41 /* PopupDialogDefaultButtons.swift in Sources */,
+				04AA52D80D961849F46196265BB2BA32 /* PopupDialogDefaultView.swift in Sources */,
+				5BD292F61E1347E52961147CF356089A /* PopupDialogDefaultViewController.swift in Sources */,
+				96A7C0ACD08A39A8DD31ACEBF3FE5414 /* PopupDialogOverlayView.swift in Sources */,
+				ABB5BB2F6F8EC7ACA0F408387E194E36 /* PresentationController.swift in Sources */,
+				48177EB610314B3A11E8C391B091C25B /* PresentationManager.swift in Sources */,
+				1A023D14EA6E411A5F1871DB14D64E81 /* TransitionAnimations.swift in Sources */,
+				84E08DC88006D97D767CEA53B1ACBD49 /* TransitionAnimator.swift in Sources */,
+				D90D3F434A42E89FF21741BCFB1F3BA1 /* UIView+Animations.swift in Sources */,
+				374B05D40613D0CD554DB2019101BE1C /* UIViewController+Visibility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F669D353C0DB09761FAB47C4906B32D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E4349E46DA74E54A1FB4881CC4F76F /* SlideMenuController.swift in Sources */,
+				FC8BDEF6A9C1BC184ACD172C9242BE2F /* SlideMenuControllerSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		060DEE44880A9D8DA78B3FD29AA76B00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SlideMenuControllerSwift;
+			target = BFF9B13C3ED8EB62440C2399D2FEF88B /* SlideMenuControllerSwift */;
+			targetProxy = 6882CE4698BCDAACBD5C082BC6A3C9CA /* PBXContainerItemProxy */;
+		};
+		0D9F49B083E9F856D2054D01210FE284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVFloatLabeledTextField;
+			target = 2A4448146C785C426971111F117D773C /* JVFloatLabeledTextField */;
+			targetProxy = D8C1258F2B199A1DF19F88A7324EB43F /* PBXContainerItemProxy */;
+		};
+		8BA506631FD842ADC175C688A075B1FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupDialog;
+			target = B00D94A861A87474228EF94655CF67B5 /* PopupDialog */;
+			targetProxy = 7985333B85BA17A7F42C15DEC0614758 /* PBXContainerItemProxy */;
+		};
+		9AD14422D7628C60AD34049951EDAFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			target = A72B2D244C629EAC320ECD494E899626 /* XLPagerTabStrip-XLPagerTabStrip */;
+			targetProxy = 07DB747486E91BCA73BF888AC4D5E4BA /* PBXContainerItemProxy */;
+		};
+		DE7C5D105DC7BBDBA2D1C18125B496DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NYAlertViewController;
+			target = DAF64AE46D5032A024E111A2A871B61A /* NYAlertViewController */;
+			targetProxy = 0A441FE35D58CB2A702C7DF38BF65095 /* PBXContainerItemProxy */;
+		};
+		EF905F772D8C5DD1FEEBFCC00F2F1D7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLPagerTabStrip;
+			target = B1629B92AAC955906684BED322BCBBBF /* XLPagerTabStrip */;
+			targetProxy = D2249AFAA39A34741CEE79D9034A1082 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02337A3BCE635C7AE65B234E9229C700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B87EB63D9C8877AC479E985CAFAC69 /* NYAlertViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NYAlertViewController/NYAlertViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NYAlertViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NYAlertViewController/NYAlertViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NYAlertViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		05B9052175150ED2D1979C2EC168C6B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90F637DB5BF34D3B093152E53E6FEB0 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2ABF962EE93A77F6C34635BD288DBAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90F637DB5BF34D3B093152E53E6FEB0 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33F076D13D0210BE53DDACC23AC4D4AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497E3C8887C7E30A947C687179C7987E /* Pods-Bakso.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Bakso/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bakso/Pods-Bakso.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Bakso;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AF020B3748BFB225B8E47079C2C17AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B87EB63D9C8877AC479E985CAFAC69 /* NYAlertViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NYAlertViewController/NYAlertViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NYAlertViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NYAlertViewController/NYAlertViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NYAlertViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A5BE164FD76ABB035D79666D8D171EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F687FFF6BCB33DB931FA6C9B11C857 /* PopupDialog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83C1B2EE77B13FACA6C909015C8D870D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90F637DB5BF34D3B093152E53E6FEB0 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9728BF022D8BBB51CC4C024FC1B0EA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A69A97F04DDCA7D808790E53480AE9D /* JVFloatLabeledTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVFloatLabeledTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JVFloatLabeledTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4CBDAAD8AD3C7955F8DA2DCF9DC1B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC2FFCAC260F7DAA0265A86C67F8D1A /* SlideMenuControllerSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SlideMenuControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D04485E9686F6CF9126B6F58DCA54F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90F637DB5BF34D3B093152E53E6FEB0 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DC8BBB1DD44D90D2BDD11E15A1282912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC2FFCAC260F7DAA0265A86C67F8D1A /* SlideMenuControllerSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SlideMenuControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFA051555F51CF127EDB85965BAEAC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F687FFF6BCB33DB931FA6C9B11C857 /* PopupDialog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2B096F90679137B0C25B5CF7D77EC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BEECED0DE598CE54232219059DDE00F /* Pods-Bakso.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Bakso/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bakso/Pods-Bakso.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Bakso;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAF25EC0E4F0B3C097635B15AEB749FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A69A97F04DDCA7D808790E53480AE9D /* JVFloatLabeledTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVFloatLabeledTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JVFloatLabeledTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		162F5F547E7472A9D80AF67B19A8C5D9 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C1B2EE77B13FACA6C909015C8D870D /* Debug */,
+				2ABF962EE93A77F6C34635BD288DBAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */,
+				862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F95740B48EA789B254DD1628DE3CFC3 /* Build configuration list for PBXNativeTarget "NYAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF020B3748BFB225B8E47079C2C17AA /* Debug */,
+				02337A3BCE635C7AE65B234E9229C700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FADC257B357BB19DD9528D38787518A /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B9052175150ED2D1979C2EC168C6B7 /* Debug */,
+				D04485E9686F6CF9126B6F58DCA54F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA59E62B8DA0FC98A16479F02909025 /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8BBB1DD44D90D2BDD11E15A1282912 /* Debug */,
+				A4CBDAAD8AD3C7955F8DA2DCF9DC1B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C414E0068C63C34D8BEC8252D016A1D /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF25EC0E4F0B3C097635B15AEB749FD /* Debug */,
+				9728BF022D8BBB51CC4C024FC1B0EA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B947826296F572A43BCEDE7D412B9B /* Build configuration list for PBXNativeTarget "PopupDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5BE164FD76ABB035D79666D8D171EB /* Debug */,
+				EFA051555F51CF127EDB85965BAEAC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D515B6D2A9DEFDA25A9DBBA7BC653A9F /* Build configuration list for PBXNativeTarget "Pods-Bakso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F076D13D0210BE53DDACC23AC4D4AC /* Debug */,
+				F2B096F90679137B0C25B5CF7D77EC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
