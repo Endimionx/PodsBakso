@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>IQKeyboardManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>JVFloatLabeledTextField.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -39,6 +44,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>YNExpandableCell.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -47,27 +57,37 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8EDDAA5D53CB0717AD3C626A85077CD7</key>
+		<key>731AFEA6A4D80B7DE5D29EB0A81D8FBD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A72B2D244C629EAC320ECD494E899626</key>
+		<key>73EEC4E03E2605A68D6CB9AD536ED070</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B00D94A861A87474228EF94655CF67B5</key>
+		<key>96750974D2CCAC9A00E1F96C5D223D9D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B1629B92AAC955906684BED322BCBBBF</key>
+		<key>9B6581181075140FB4E62F6AAB17E56A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BFF9B13C3ED8EB62440C2399D2FEF88B</key>
+		<key>AEF7E3613EBBD44046D05F4AAEEE7AB4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B4EE777443475007EA2AF463419FEB87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C36CB2CB977A4E7D954935096D00A1ED</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -48,7 +48,7 @@ public struct ButtonBarPagerTabStripSettings {
         public var buttonBarLeftContentInset: CGFloat?
         public var buttonBarRightContentInset: CGFloat?
 
-        public var selectedBarBackgroundColor = UIColor.black
+        public var selectedBarBackgroundColor = UIColor.lightText
         public var selectedBarHeight: CGFloat = 3
         
         public var buttonBarItemBackgroundColor: UIColor?

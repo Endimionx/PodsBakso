@@ -684,6 +684,17 @@ open class SlideMenuController: UIViewController, UIGestureRecognizerDelegate {
         }
     }
     
+    open func pushViewController(_ mainViewController: UIViewController,  close: Bool) {
+        
+        removeViewController(self.mainViewController)
+        //present(mainViewController, animated:true, completion: nil)
+        
+        if close {
+            closeLeft()
+            closeRight()
+        }
+    }
+    
     open func changeLeftViewWidth(_ width: CGFloat) {
         
         SlideMenuOptions.leftViewWidth = width
@@ -1050,6 +1061,19 @@ extension UIViewController {
         
     }
     
+    public func addLeftBarButtonWithImageTextBack(_ buttonImage: UIImage) {
+        
+        let button = UIButton(type: .system)
+        button.setImage(buttonImage, for: .normal)
+        button.setTitle("   J-Delivery", for: .normal)
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        button.addTarget(self, action: #selector(self.toggleBack), for: .touchUpInside)
+        button.sizeToFit()
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(customView: button)
+        
+    }
+    
+    
     public func addRightBarButtonWithImage(_ buttonImage: UIImage) {
         let rightButton: UIBarButtonItem = UIBarButtonItem(image: buttonImage, style: UIBarButtonItemStyle.plain, target: self, action: #selector(self.toggleRight))
         navigationItem.rightBarButtonItem = rightButton
@@ -1076,6 +1100,14 @@ extension UIViewController {
     
     public func closeRight() {
         slideMenuController()?.closeRight()
+    }
+    
+    public func toggleBack() {
+        //self.dismiss(animated: true, completion: nil)
+        print("before")
+        slideMenuController()?.navigationController?.popViewController(animated: true) //dismiss(animated: true, completion: nil)
+        
+        print("after")
     }
     
     // Please specify if you want menu gesuture give priority to than targetScrollView
