@@ -52,7 +52,7 @@ public struct ButtonBarPagerTabStripSettings {
         public var selectedBarHeight: CGFloat = 3
         
         public var buttonBarItemBackgroundColor: UIColor?
-        public var buttonBarItemFont = UIFont.systemFont(ofSize: 12)
+        public var buttonBarItemFont = UIFont.boldSystemFont(ofSize: 12)
         public var buttonBarItemLeftRightMargin: CGFloat = 8
         public var buttonBarItemTitleColor: UIColor?
         public var buttonBarItemsShouldFillAvailiableWidth = true
@@ -78,7 +78,7 @@ open class ButtonBarPagerTabStripViewController: PagerTabStripViewController, Pa
         let labelSize = label.intrinsicContentSize
         let w = self?.settings.style.buttonBarItemsWidth
         
-        return CGFloat( w!) //labelSize.width + (self?.settings.style.buttonBarItemLeftRightMargin ?? 8) * 2
+        return labelSize.width + (self?.settings.style.buttonBarItemLeftRightMargin ?? 8) * 2 //CGFloat( w!)
     })
     
     open var changeCurrentIndex: ((_ oldCell: ButtonBarViewCell?, _ newCell: ButtonBarViewCell?, _ animated: Bool) -> Void)?

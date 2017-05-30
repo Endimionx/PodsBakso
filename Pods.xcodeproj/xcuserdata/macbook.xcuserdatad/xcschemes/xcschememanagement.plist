@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>JExpandableTableView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>JVFloatLabeledTextField.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -25,6 +30,11 @@
 			<false/>
 		</dict>
 		<key>PopupDialog.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SVProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -52,37 +62,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0F74EC9BCC824A41C4C691610D9DCB47</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>28644CB2A781F8184D03738C7809D9BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>2A4448146C785C426971111F117D773C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>731AFEA6A4D80B7DE5D29EB0A81D8FBD</key>
+		<key>88AB368F5E938FD44F81C6AC241C820C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>73EEC4E03E2605A68D6CB9AD536ED070</key>
+		<key>98530FDAF9EE8CD8B9675C89537F6BDF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>96750974D2CCAC9A00E1F96C5D223D9D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9B6581181075140FB4E62F6AAB17E56A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AEF7E3613EBBD44046D05F4AAEEE7AB4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B4EE777443475007EA2AF463419FEB87</key>
+		<key>AD50EE87A48DB724D4B46C0C62044B9D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -93,6 +98,21 @@
 			<true/>
 		</dict>
 		<key>DAF64AE46D5032A024E111A2A871B61A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E436AC52214B63635AAEF40AFF0A6F3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E99DAE861F8B7F34D980CE214AF45F78</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE594EA014CEFEAE259B47531A95BC82</key>
 		<dict>
 			<key>primary</key>
 			<true/>
